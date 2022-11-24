@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navigation">
+        <div class="fluid " >
+            <!--  NAVBAR 1-->
+            <nav class="navbar position space-between">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 display-none">
+                            <ul class="nav-links ">
+                                <li class="nav-item"><a href="#">About</a></li>
+                                <li class="nav-item"><a href="#">Contact</a></li>
+                                <li class="nav-item"><a href="#">Help</a></li>
+                                <li class="nav-item"><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6" style="text-align: right;">
+                            <div class="navbar-icons">
+                                <form>
+                                    <select  class="but-pad" style="border:none;" name="account">
+                                        <option class="nav-links ">My Account</option>
+                                        <option class="nav-item" value="Login">Login</option>
+                                        <option value="Logout">Log out</option>
+                                        <option value="signup">Sign UP</option>
+                                    </select>
+                                    <select  class="but-pad" style="border:none;" name="money">
+                                        <option value="USD">USD</option>
+                                        <option value="Euro">EURO</option>
+                                        <option value="HKD">HKD</option>
+                                    </select>
+                                    <select class="but-pad " style="border:none;" name="langues">
+                                        <option value="EN">EN</option>
+                                        <option value="FR">FR</option>
+                                        <option value="UKR">UKR</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div> 
+                    </div> 
+                </div> 
+            </nav>
+            <!-- NAVBAR2-->
+            <nav class="navbar2 watch-display-none" style="background-color:white; display: inline-block;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="row">
+                                <div class="col-6 multi" style="background-color:#3d464d ; color:#ffd334;">
+                                    MULTI
+                                </div>
+                                <div class="col-6 shop" style="background-color:#ffd334; color:#3d464d;">
+                                    SHOP
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="row">
+                                <input class="search-nav"  style="width: 300px; padding: 10px; border: solid #3d464d35 0.5px;"  placeholder="Search for products" type="search" value="" > 
+                                <button class="display-none display-none-tablet "  style="color: #ffd334; width: 40px; padding: 10px; border: solid #3d464d35 0.5px; background: none;" type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>       
+                            </div>
+                        </div>
+                        <div class="col-2 short-castomer-tablet display-none short-castomer-phone">
+                            <p style="text-align: center;">Castomer Service <br><strong style="font-size: 20px ;">+012 345 6789</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- NAVBAR3-->
+            <div class="fluid short-navbar3" style="background-color:#3d464d;">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-3 display-none  display-none-tablet short-navbar3-yellow" style="background-color: #ffd334; padding:30px;">
+                        <div class="row">
+                            <div class="col-2" style="text-align:center;"><i class="fa-solid fa-bars"></i> 
+                            </div>
+                            <div class="col-4 display-none"  style="text-align:left;">
+                               <label>Categories</label>
+                            </div>
+                            <div class="col-4" style="text-align:center;">
+                                <form>
+                                    <select  style="color:#3d464d;background-color:#ffd334; border:none;" >
+                                        <optgroup label="Category 1">
+                                            <option value="1"> </option>
+                                            <option value="1">Sous-category</option>
+                                            <option value="1">Sous-category</option>
+                                            <option value="1">Sous-category</option>
+                                        </optgroup>
+                                        <optgroup label="Category 2">
+                                            <option value="1">Sous-category</option>
+                                            <option value="1">Sous-category</option>
+                                            <option value="1">Sous-category</option>
+                                        </optgroup>
+                                        <optgroup label="Category ">
+                                            <option value="1">Sous-category</option>
+                                            <option value="1">Sous-category</option>
+                                            <option value="1">Sous-category</option>
+                                        </optgroup>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="col-7">
+                        <ul class="nav-links">
+                            <li class="nav-item3-h"><a href="#">Home</a></li>
+                            <li class="nav-item3"><a href="#">Shop</a></li>
+                            <li class="nav-item3"><a href="#">Shop detail</a></li>
+                            <li class="nav-item3 display-none">
+                                <a href="#"> 
+                                    <form > 
+                                        <select  style="border: none; font-size: medium; background-color:#3d464d; color:#f5f5f5; ">
+                                            <option >Pages</option>
+                                            <option value="1">1</option>
+                                            <option value="1">2</option>
+                                            <option value="1">3</option>
+                                        </select>
+                                    </form>
+                                </a> 
+                            </li>
+                            <li class="nav-item3"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-2 display-none display-none-tablet">
+                        <div class="row">
+                            <div class="col-9" style="text-align: right;">
+                                <i class="fa-solid fa-heart" style="color:#ffd334;"></i>
+                                <i class="fa-solid fa-0" style="color: white;"></i>
+                            </div>
+                            <div class="col-3" style="text-align:center; text-align:right;">
+                                <i class="fa-solid fa-cart-shopping" style="color:#ffd334;"></i>
+                                <i class="fa-solid fa-0" style="color:white;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>  
+    <main>  
+        <!--CAROUSEL PHOTOS--> 
+        <div class="fluid watch-display-none" style="background-color: #f5f5f5; margin-top: 220px; padding: 20px;" >
+            <div class="container">
+                <div class="row "> 
+                    <!-- carousel-->
+                    <div class="col-8 display-none watch-display-none" style="padding-right:1rem;">     
+                        <ul class="gallery">
+                            <li class="list-carousel" ><img src="img/carousel-1.jpg" alt=" photo carousel" ></li>
+                            <li class="list-carousel" ><img src="img/carousel-2.jpg" alt=" photo carousel" ></li>
+                            <li class="list-carousel" ><img src="img/carousel-3.jpg" alt=" photo carousel" ></li>
+                        </ul>
+                            <!--<div class="row">
+                                        <div>
+                                        <p>SAVE 20%</p>
+                                        <h3>Special Offer</h3>
+                                        <input style="background-color: #ffd334; border:none; padding: 10px; " type="button" value="Shop Now">
+                                    </div>
+                                </div>-->
+                    </div>              
+                    <!-- offres--> 
+                    <div class="col-4 fluid-mobile watch-display-none">
+                        <div class="row-item-right" style="margin-left:1rem; margin-bottom:2rem;">
+                            <img src="img/offer-1.jpg" width="100%" alt="promotion"> 
+                            <div class="wrap-text-carousel-1-photo-2" style="text-align:center;">
+                                <div>
+                                    <p>SAVE 20%</p>
+                                    <h3>Special Offer</h3>
+                                    <input style="background-color:#ffd334; border:none; padding:10px; " type="button" value="Shop Now">
+                                </div>
+                            </div> 
+                        </div>             
+                        <div class="row-item-left"  style="margin-left:1rem; ">
+                            <img src="img/offer-2.jpg" width="100%" alt="promotion"> 
+                            <div class="wrap-text-carousel-1-photo-3" style="text-align:center;">
+                                <div>
+                                    <p>SAVE 20%</p>
+                                    <h3>Special Offer</h3>
+                                    <input style="background-color: #ffd334; border:none; padding: 10px; " type="button" value="Shop Now">
+                                </div>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="row" style="margin-top:55px;"> 
+    
+        <div  class="col-8 " >
+            <img  class="carousel-1-photo" src="img/carousel-3.jpg" width="100%" alt="" srcset="">
+            <div class="text-carousel-1-photo-1">
+                <h1> Kids Fashion</h1> 
+                <p > Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                <br> Vitae praesentium in perferendis quos unde iusto.</p>
+                <input  class="input-shop-now-transparant" style="background:transparent; border: solid 1px white; padding: 10px 20px 10px 20px;  color: white;" type="button" value="Shop Now">
+            </div>
+        </div>
+
+        <div class="col-4 " >
+            <div style="padding-right: 1rem;">
+                <div class="col-12">
+                    <img src="img/offer-1.jpg"   width="100%"  alt="" srcset="">
+                    <div class="text-carousel-1-photo-2" style="text-align:center ;">
+                        <p>SAVE 20%</p>
+                        <h3>Special Offer</h3>
+                        <button  class="input-shop-now-transparant" style="background-color: #ffd334; border:none; padding: 10px; "  type="submit">Shop Now</button>
+
+                    </div>
+                </div>
+                <div class="col-12" >
+                    <img src="img/offer-2.jpg" width="100%"  alt="" srcset="">
+                    <div class="text-carousel-1-photo-3" style="text-align:center ;">
+                        <p>SAVE 20%</p>
+                        <h3>Special Offer</h3>
+                        <input style="background-color: #ffd334; border:none; padding: 10px; " type="button" value="Shop Now">
+
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <div class="fluid" style="border:#f5f5f5 solid 1px; background:#f5f5f5;">
+            <div class="container" style=" background-color: #f5f5f5">
+                <!--MENU INFO-->  
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-3 photo2">
+                        <div  style="background-color: white; padding: 1rem;" ><p> <i class="fa-solid fa-check" aria-hidden="true"></i><strong>   Quality Product</strong> </p></div>
+                    </div>
+                    <div class="col-3 photo2">
+                        <div  style="background-color: white; padding: 1rem; " ><p> <i class="fas fa-shipping-fast"></i><strong>    Free Shipping</strong> </p></div>
+                    </div>
+                    <div class="col-3 photo2">
+                        <div  style="background-color: white; padding: 1rem; " ><p><i class="fa-solid fa-arrow-right-arrow-left"></i> <strong>   14-DAY RETURN</strong> </p></div>
+                    </div>
+                    <div class="col-3 photo2">
+                        <div  style="background-color: white; padding: 1rem;" ><p> <i class="fas fa-phone-volume "></i><strong>    24/7 Support</strong> </p></div>
+                    </div>
+                </div>
+                <!--CATEGORIES MENU-->
+                <div class="row" style="margin:30px 15px 30px 0;">
+                <hr class="line-1">
+                </div>
+                <!--categories-->
+                <div class="row">
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row " style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25 "><img src="img/cat-1.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25"><img src="img/cat-2.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25"><img src="img/cat-3.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25"><img src="img/cat-4.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25 "><img src="img/cat-4.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25"><img src="img/cat-3.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25 "><img src="img/cat-2.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25"><img src="img/cat-1.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25"><img src="img/cat-2.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25"><img src="img/cat-1.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25"><img src="img/cat-4.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-15">
+                        <div class="row" style="background-color: white;">
+                            <div class="col-3 display-mobile-photo-25"><img src="img/cat-3.jpg"  width="100%" alt="ptoto"></div>
+                            <div class="col-9" > <p><strong>Category name</strong> <br> 100 Products</p> </div>
+                        </div>
+                    </div>
+                </div>
+                <!--HR-line-->
+                <div class="row" style="margin:30px 15px 30px 0;">
+                <hr class="line-2">
+                </div>
+                <!--FEATURED PRODUCTS--> 
+                <div class="row display-50">
+                    <div class="col-3 photo display-tablet-photo-50">
+                        <div style="background-color: white;">
+                            <img src="img/product-1.jpg"  width="100%" alt="Photo de product-1" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo display-tablet-photo-50">
+                        <div style="background-color: white;">
+                            <img src="img/product-2.jpg"  width="100%" alt="Photo de product-2" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo display-tablet-photo-50">
+                        <div style="background-color: white;">
+                            <img src="img/product-3.jpg"  width="100%" alt="Photo de product-3" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo display-tablet-photo-50">
+                        <div style="background-color: white;">
+                            <img src="img/product-4.jpg"  width="100%" alt="Photo de product-4" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row display-none" >
+                    <div class="col-3 photo display-tablet-photo-50">
+                        <div style="background-color: white;">
+                            <img src="img/product-5.jpg"  width="100%" alt="Photo de product-5">
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo display-tablet-photo-50">
+                        <div style="background-color: white;">
+                            <img src="img/product-6.jpg"  width="100%" alt="Photo de product-6">
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo display-tablet-photo-50">
+                        <div style="background-color: white;">
+                            <img src="img/product-7.jpg"  width="100%" alt="Photo de product-7" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo display-tablet-photo-50">
+                        <div style="background-color: white;">
+                            <img src="img/product-8.jpg"  width="100%" alt="Photo de product-8" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Carousel -->
+                <div class="row display-none" style="margin-top:30px;"> 
+                    <div class="col-6 " style="padding-right: 1rem;" >
+                        <div class="row-item-left">
+                            <img src="img/offer-1.jpg" width="100%" alt="Photo offer-1" > 
+                            <div class="wrap-text-carousel-2-photo-1" style="text-align:center ;">
+                                <div>
+                                    <p>SAVE 20%</p>
+                                    <h3>Special Offer</h3>
+                                    <input style="background-color: #ffd334; border:none; padding: 10px; " type="button" value="Shop Now">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-6 " style="padding-right: 1rem;" >
+                        <div class="row-item-right">
+                            <img src="img/offer-2.jpg" width="100%" alt="Photo offer-2" > 
+                            <div class="wrap-text-carousel-2-photo-2" style="text-align:center;">
+                                <div>
+                                    <p>SAVE 20%</p>
+                                    <h3>Special Offer</h3>
+                                    <input style="background-color: #ffd334; border:none; padding: 10px; " type="button" value="Shop Now">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>       
+                </div> 
+                <!--
+                <div class="row" style="margin-top:60px;">     
+                <div  class="col-6 " style="padding-right: 1rem;" >
+                    <div class="text-carousel-2-photo-1" style="text-align:center ;">
+                        <p>SAVE 20%</p>
+                        <h3>Special Offer</h3>
+                        <input style="background-color: #ffd334; border:none; padding: 10px; " type="button" value="Shop Now">
+
+                    </div>
+                    <img src="img/offer-1.jpg"  width="100%" alt="" srcset="">
+                    
+                </div>
+                <div class="col-6" style="padding-right: 1rem;" >
+                    <div class="text-carousel-2-photo-2" style="text-align:center ;">
+                        <p>SAVE 20%</p>
+                        <h3>Special Offer</h3>
+                        <input style="background-color: #ffd334; border:none; padding: 10px; " type="button" value="Shop Now">
+                    </div>
+                    <img src="img/offer-2.jpg" width="100%"  alt="" srcset="">  
+                </div>
+            </div>
+                
+                
+                <div class="row-item">
+                <img src="img/offer-1.jpg" alt="" srcset="">
+                 <div class="wrap-text">
+                     <div>
+                         <h2>sale</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus perspiciatis cupiditate aspernatur maiores, eveniet, beatae quia consectetur velit dolore officia aliquid, aliquam provident est quas assumenda maxime nesciunt sunt nulla.</p>
+                     </div>
+
+                 </div>
+                 
+             </div>
+            
+            
+               -->
+                <!-- <div class="row" style="margin-top:60px;">     
+                <div  class="col-6 row-item" style="padding-right: 1rem;" >
+                   <img src="img/offer-1.jpg"  width="100%" alt="" srcset=""> <div class="text-carousel-2-photo-1" style="text-align:center ;">
+                        <p>SAVE 20%</p>
+                        <h3>Special Offer</h3>
+                        <input style="background-color: #ffd334; border:none; padding: 10px; " type="button" value="Shop Now">
+
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-6" style="padding-right: 1rem;" >
+                    <div class="text-carousel-2-photo-2" style="text-align:center ;">
+                        <p>SAVE 20%</p>
+                        <h3>Special Offer</h3>
+                        <input style="background-color: #ffd334; border:none; padding: 10px; " type="button" value="Shop Now">
+                    </div>
+                    <img src="img/offer-2.jpg" width="100%"  alt="" srcset="">  
+                </div>
+            </div>>-->
+                <!--RECENT PRODUCTS-->
+                <div class="row" style="margin:40px 15px 30px 0;">
+                <hr class="line-3">
+                </div>
+                <div class="row" >
+                    <div class="col-3 photo2 display-tablet-photo-25">
+                        <div style="background-color: white;">
+                            <img src="img/product-1.jpg"  width="100%" alt="Photo de product-1" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-25">
+                        <div style="background-color: white;">
+                            <img src="img/product-2.jpg"  width="100%" alt="Photo de product-2" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-25">
+                        <div style="background-color: white;">
+                            <img src="img/product-3.jpg"  width="100%" alt="Photo de product-3"  >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-25">
+                        <div style="background-color: white;">
+                            <img src="img/product-4.jpg"  width="100%" alt="Photo de product-4"  >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                </div>        
+                <div class="row" >
+                    <div class="col-3 photo2 display-tablet-photo-25">
+                        <div style="background-color: white;">
+                            <img src="img/product-5.jpg"  width="100%" alt="Photo de product-5"  >
+                            <div>
+                                <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-25">
+                        <div style="background-color: white;">
+                            <img src="img/product-6.jpg"  width="100%" alt="Photo de product-6" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-25">
+                        <div style="background-color: white;">
+                            <img src="img/product-7.jpg"  width="100%" alt="Photo de product-7" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                    <div class="col-3 photo2 display-tablet-photo-25">
+                        <div style="background-color: white;">
+                            <img src="img/product-8.jpg"  width="100%" alt="Photo de product-8" >
+                            <p style="text-align: center; padding-bottom: 2rem;">Product Name Goes Here <br> <strong> $123 </strong><s> $123 </s><br> <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> (99)</p>
+                        </div>
+                    </div>
+                </div>
+                <!--PARTNERS-->
+                <div class="row display-inline " style="margin-top:20px; margin-bottom:30px;">
+                    <div class="col-2 display-inline photo2 display-tablet-photo-15">
+                        <img src="img/vendor-1.jpg" width="100%" alt="Logo-1" >
+                    </div>
+                    <div class="col-2 display-inline photo2 display-tablet-photo-15">
+                        <img src="img/vendor-2.jpg" width="100%" alt="Logo-2" >
+                    </div>
+                    <div class="col-2 display-inline photo2 display-tablet-photo-15">
+                        <img src="img/vendor-3.jpg" width="100%" alt="Logo-3" >
+                    </div>
+                    <div class="col-2 photo2 display-tablet-photo-15" >
+                        <img src="img/vendor-4.jpg" width="100%" alt="Logo-4" >
+                    </div>
+                    <div class="col-2 photo2 display-tablet-photo-15">
+                        <img src="img/vendor-5.jpg" width="100%" alt="Logo-5" >
+                    </div>
+                    <div class="col-2 photo2 display-tablet-photo-15">
+                        <img src="img/vendor-6.jpg" width="100%" alt="Logo-6" >
+                    </div>
+                </div>
+                <!--CAROUSEL EXAMPLE
+                <div>
+                    <ul class="gallery">
+                        <li ><img src="img/carousel-1.jpg" alt="" srcset=""></li>
+                        <li ><img src="img/carousel-2.jpg" alt="" srcset=""></li>
+                        <li ><img src="img/carousel-3.jpg" alt="" srcset=""></li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </main> 
+    <footer>
+        <div class="fluid-footer">
+            <div class="container" style="padding-top:40px;">
+                <div class="row tablet-footer-centre" >
+                    <div class="col-4">
+                        <h3>GET IN TOUCH</h3> 
+                        <div class="footer-links" >
+                            <p style=" margin-right: 1rem;"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Ut eaque quam tempora necessitatibus architecto eligendiu. 
+                                <br><br>
+                                <i class="fa-solid fa-location-dot" style=" color: #ffd334; margin-right: 0.5rem;"></i>
+                                123 Street, New York, USA 
+                                <br><br>
+                                <i class="fa-solid fa-envelope" style="color: #ffd334; margin-right: 0.5rem;"></i>
+                                    info@example.com 
+                                <br><br>
+                                <i class="fa-solid fa-phone" style="color: #ffd334; margin-right: 0.5rem;"></i>
+                                +012 345 67890
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <h3>QUICK SHOP</h3>
+                        <div  style="margin-right: 0px;">
+                            <ul class="footer-links">
+                            <li class="items-footer"> <a href="index.html">Home</a> </li>
+                            <li class="items-footer"> <a href="#">Our Shop</a> </li>
+                            <li class="items-footer"> <a href="#"> Shop Detail</a></li>
+                            <li class="items-footer"> <a href="#">Shopping Cart</a> </li>
+                            <li class="items-footer"> <a href="#">Checkout</a> </li>
+                            <li class="items-footer"> <a href="#">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 ">
+                        <h3>MY ACCOUNT</h3>
+                        <div  style="margin-right: 0px;">
+                            <ul class="footer-links">
+                                <li class="items-footer"> <a href="index.html">Home</a> </li>
+                                <li class="items-footer"> <a href="#">Our Shop</a> </li>
+                                <li class="items-footer"> <a href="#"> Shop Detail</a></li>
+                                <li class="items-footer"> <a href="#">Shopping Cart</a> </li>
+                                <li class="items-footer"> <a href="#">Checkout</a> </li>
+                                <li class="items-footer"> <a href="#">Contact Us</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3" >
+                        <h3>NEWSLETTER</h3>
+                        <div class="col-12 search-footer" style="text-align:left ; border: none">
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <input type="email" placeholder="Your Email Address" style="width: auto; padding: 10px ; border: none;">
+                            <input type="submit" value="Sign Up" style="padding: 10px  15px 10px  15px; border: none; background:#ffd334; margin-left: -5px;">
+                        </div>
+                        <br>
+                        <h3>FOLLOW US</h3>
+                        <i class="fa-brands fa-square-twitter" style="font-size: 40px; color: #ffd334; margin-right: 0.2rem;"></i>
+                        <i class="fa-brands fa-square-facebook" style="font-size: 40px; color: #ffd334;margin-right: 0.2rem;" ></i>
+                        <i class="fa-brands fa-linkedin" style="font-size: 40px; color: #ffd334; margin-right: 0.2rem;"></i>
+                        <i class="fa-brands fa-square-instagram" style="font-size: 40px; color: #ffd334;margin-right: 0.5rem; "></i>
+                    </div>
+                </div>  
+                <hr style="color: #f5f5f500; text-decoration-line: line-through; margin-top: 80px;"> 
+                <div class="row">
+                    <div class="col-6" style="margin-top: 20px; margin-bottom:20px; ">
+                        <p>&COPY;<span style="color: #ffd334;">Domain</span>. All Rights Reserved. Designed by <span style="color: #ffd334;">HTML Codex</span></p>
+                    </div>
+                    <div class="col-6" style="text-align: end;">
+                        <img src="img/payments.png" alt="Mode de paiments">
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="col-4 btn-smooth" style=" position: fixed; right: 30px; bottom: 30px;">
+            <a href="#top" style="padding: 0.5rem ; background-color: #ffd334a2; " class="btn-smooth"><i class="fa-solid fa-chevron-up" style="color: #3d464d;"></i></a>
+        </div>
+    </footer>
+    <script src="js/fontawesome.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
